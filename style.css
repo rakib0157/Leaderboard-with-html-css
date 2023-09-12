@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color:#F3F1FF;
+    padding-bottom: 20px;
+}
+header{
+    background-color: #562EFF;
+    height: 94px;
+}
+.header-container{
+    max-width: 870px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-logo{
+    display:flex;
+    align-items: center;
+    gap: 15.58px;
+
+}
+.brand-logo h5{
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+.profile > img{
+    width: 51px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.nav-container > ul{
+    display: flex;
+    gap: 36px;
+}
+.nav-container > ul >li > a{
+    color: #ffffff;
+    font-size: 16px;
+}
+/* ===========================header style code end ================================== */
+
+#top-player{
+    max-width:870px;
+    height: 679px;
+    background-color: #ffffff;
+    margin: 33px auto;
+    border-radius: 5px;
+}
+.section-heading{
+    font-size: 24px;
+    color:#562EFF;
+    padding: 33px;
+}
+.top-player-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 7px;
+    padding-left: 33px;
+}
+.player-image{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.player-image h5{
+    font-size: 18px;
+}
+.player-image > img{
+    width: 56px;
+}
+hr{
+    margin: 33px;
+    margin-bottom: 0px;
+    height:2px;
+    border: none;
+    background-color: #D1D1D1;
+}
+.blog-card-container{
+    margin-left: 33px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+
+}
+.card{
+    height: 127px;
+    display: flex;
+}
+.card-title{
+    margin: 10px;
+    font-size: 20px;
+}
+.card >img{
+    border-radius:5px;
+}
+.card-name{
+    margin-left: 10px;
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.authorName{
+color: #562EFF;
+}
+
+/* ====================course section start  =====================*/
+#course-section{
+    max-width: 870px;
+    height: 362px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.course-card-container{
+    display: flex;
+    gap: 29px;
+    margin-left: 33px;
+}
+.course-card{
+  width: 252.473px;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 4px #D1D1D1;
+  padding: 10px;
+}
